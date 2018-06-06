@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\tyfig\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\tyfig\\.nuget\\packages",
+      "C:\\Users\\TDWarren\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\TDWarren\\.nuget\\packages",
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
     ]
   }

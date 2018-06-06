@@ -9,3 +9,14 @@ D:\Windows\Users\Tyler\Documents\programming\c#\learn-c#\obj\Debug\netcoreapp2.1
 D:\Windows\Users\Tyler\Documents\programming\c#\learn-c#\obj\Debug\netcoreapp2.1\learn-c#.AssemblyInfo.cs
 D:\Windows\Users\Tyler\Documents\programming\c#\learn-c#\obj\Debug\netcoreapp2.1\learn-c#.dll
 D:\Windows\Users\Tyler\Documents\programming\c#\learn-c#\obj\Debug\netcoreapp2.1\learn-c#.pdb
+C:\Users\TDWarren\OneDrive - Sempra Energy\Documents\Internship\Programming\c#\Learn-C-Sharp-in-one-video\bin\Debug\netcoreapp2.1\learn-c#.deps.json
+C:\Users\TDWarren\OneDrive - Sempra Energy\Documents\Internship\Programming\c#\Learn-C-Sharp-in-one-video\bin\Debug\netcoreapp2.1\learn-c#.runtimeconfig.json
+C:\Users\TDWarren\OneDrive - Sempra Energy\Documents\Internship\Programming\c#\Learn-C-Sharp-in-one-video\bin\Debug\netcoreapp2.1\learn-c#.runtimeconfig.dev.json
+C:\Users\TDWarren\OneDrive - Sempra Energy\Documents\Internship\Programming\c#\Learn-C-Sharp-in-one-video\bin\Debug\netcoreapp2.1\learn-c#.dll
+C:\Users\TDWarren\OneDrive - Sempra Energy\Documents\Internship\Programming\c#\Learn-C-Sharp-in-one-video\bin\Debug\netcoreapp2.1\learn-c#.pdb
+C:\Users\TDWarren\OneDrive - Sempra Energy\Documents\Internship\Programming\c#\Learn-C-Sharp-in-one-video\obj\Debug\netcoreapp2.1\learn-c#.csprojAssemblyReference.cache
+C:\Users\TDWarren\OneDrive - Sempra Energy\Documents\Internship\Programming\c#\Learn-C-Sharp-in-one-video\obj\Debug\netcoreapp2.1\learn-c#.csproj.CoreCompileInputs.cache
+C:\Users\TDWarren\OneDrive - Sempra Energy\Documents\Internship\Programming\c#\Learn-C-Sharp-in-one-video\obj\Debug\netcoreapp2.1\learn-c#.AssemblyInfoInputs.cache
+C:\Users\TDWarren\OneDrive - Sempra Energy\Documents\Internship\Programming\c#\Learn-C-Sharp-in-one-video\obj\Debug\netcoreapp2.1\learn-c#.AssemblyInfo.cs
+C:\Users\TDWarren\OneDrive - Sempra Energy\Documents\Internship\Programming\c#\Learn-C-Sharp-in-one-video\obj\Debug\netcoreapp2.1\learn-c#.dll
+C:\Users\TDWarren\OneDrive - Sempra Energy\Documents\Internship\Programming\c#\Learn-C-Sharp-in-one-video\obj\Debug\netcoreapp2.1\learn-c#.pdb
