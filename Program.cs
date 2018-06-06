@@ -5,6 +5,7 @@ namespace learn_c_
     class Program
     {
         // Run with "dotnet run"
+        // Requires .NET Core!
         static void Main(string[] args)
         {
             
