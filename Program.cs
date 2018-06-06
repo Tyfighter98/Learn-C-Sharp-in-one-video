@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
+using System.Linq;
 using System.Text;
 
 namespace learn_c_
@@ -9,7 +11,7 @@ namespace learn_c_
         // Run with "dotnet run"
         static void Main(string[] args)
         {
-            
+
         }
 
         // Teaches basic console output and input
@@ -427,6 +429,80 @@ namespace learn_c_
             superman.showData();
             samsungTV.showData();
         }
+
+        static void introToEnums() {
+            Temperature micTemp = Temperature.Low;
+
+            switch (micTemp) {
+                case Temperature.Freeze:
+                    Console.WriteLine("Temp on Freezing");
+                    break;
+                
+                case Temperature.Low:
+                    Console.WriteLine("Temp on Low");
+                    break;
+
+                case Temperature.Warm:
+                    Console.WriteLine("Temp on Warm");
+                    break;
+                
+                case Temperature.Boil:
+                    Console.WriteLine("Temp on Boil");
+                    break;
+            }
+        }
+
+        delegate double GetSum(double num1, double num2);
+
+        static void basicDelegates() {
+            GetSum sum = delegate(double num1, double num2) {
+                return num1 + num2;
+            };
+
+            Console.WriteLine("5 + 10 = {0}", sum(5,10));
+        }
+
+        static void basicStructs() {
+            Customers bob = new Customers();
+
+            bob.createCust("Bob", 15.50, 12345);
+            bob.showCust();
+        }
+
+        static void basicIO() {
+            string[] custs = new string[] {"Tom", "Paul", "Greg"};
+            // StreamWriter can write data to a file
+            using (StreamWriter sw = new StreamWriter("custs.txt")) {
+                foreach (string cust in custs) {
+                    sw.WriteLine(cust);
+                }
+            }
+
+            string custName = "";
+            // StreamReader can read data from a file
+            using (StreamReader sr = new StreamReader("custs.txt")) {
+                // Runs while there is data on the line
+                while ((custName = sr.ReadLine()) != null) {
+                    Console.WriteLine(custName);
+                }
+            }
+        }
+
+        static void introToLambdaFunctions() {
+            // Lamnda expression
+            Func<int, int, int> getSum = (x,y) => x + y;
+
+            // In order to call the function of getSum we need to use .Invoke and then we can pass in the
+            // parameters
+            Console.WriteLine("5 + 3 = {0}", getSum.Invoke(5,3));
+
+            List<int> numList = new List<int> {5, 10, 15, 20, 25};
+            List<int> oddNums = numList.Where(n => n % 2 == 1).ToList();
+
+            foreach(int num in oddNums) {
+                Console.WriteLine(num + ", ");
+            }
+        }
     }
 
     class Animal {
@@ -598,4 +674,20 @@ namespace learn_c_
         Warm,
         Boil
     }
+    
+    struct Customers {
+        private double balance;
+        private string name;
+        private int id;
+
+        public void createCust(string n, double b, int i) {
+            name = n;
+            balance = b;
+            id = i;
+        }
+
+        public void showCust() {
+            Console.WriteLine("Name: {0}\nBalance: {1}\nId: {2}", name, balance, id);
+        }
+    };
 }
