@@ -1,0 +1,11 @@
+D:\Windows\Users\Tyler\Documents\programming\c#\learn-c#\bin\Debug\netcoreapp2.1\learn-c#.deps.json
+D:\Windows\Users\Tyler\Documents\programming\c#\learn-c#\bin\Debug\netcoreapp2.1\learn-c#.runtimeconfig.json
+D:\Windows\Users\Tyler\Documents\programming\c#\learn-c#\bin\Debug\netcoreapp2.1\learn-c#.runtimeconfig.dev.json
+D:\Windows\Users\Tyler\Documents\programming\c#\learn-c#\bin\Debug\netcoreapp2.1\learn-c#.dll
+D:\Windows\Users\Tyler\Documents\programming\c#\learn-c#\bin\Debug\netcoreapp2.1\learn-c#.pdb
+D:\Windows\Users\Tyler\Documents\programming\c#\learn-c#\obj\Debug\netcoreapp2.1\learn-c#.csprojAssemblyReference.cache
+D:\Windows\Users\Tyler\Documents\programming\c#\learn-c#\obj\Debug\netcoreapp2.1\learn-c#.csproj.CoreCompileInputs.cache
+D:\Windows\Users\Tyler\Documents\programming\c#\learn-c#\obj\Debug\netcoreapp2.1\learn-c#.AssemblyInfoInputs.cache
+D:\Windows\Users\Tyler\Documents\programming\c#\learn-c#\obj\Debug\netcoreapp2.1\learn-c#.AssemblyInfo.cs
+D:\Windows\Users\Tyler\Documents\programming\c#\learn-c#\obj\Debug\netcoreapp2.1\learn-c#.dll
+D:\Windows\Users\Tyler\Documents\programming\c#\learn-c#\obj\Debug\netcoreapp2.1\learn-c#.pdb
